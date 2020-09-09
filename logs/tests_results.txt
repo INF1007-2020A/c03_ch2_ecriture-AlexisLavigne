@@ -7,8 +7,8 @@ Traceback (most recent call last):
   File "test_exercice.py", line 17, in test_upper_case_names
     output = list(map(exercice.majuscule, altered_words))
   File "/home/runner/work/c03_ch2_ecriture-AlexisLavigne/c03_ch2_ecriture-AlexisLavigne/exercice.py", line 7, in majuscule
-    lettre += 32
-TypeError: must be str, not int
+    lettre -= 32
+TypeError: unsupported operand type(s) for -=: 'str' and 'int'
 
 ----------------------------------------------------------------------
 Ran 1 test in 0.001s
